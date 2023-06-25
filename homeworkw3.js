@@ -1,3 +1,4 @@
+// SUHU
 let suhu = prompt("Masukkan Nilai Suhu");
 let kondisi =
     suhu >= -100 && suhu <= 0
@@ -7,6 +8,7 @@ let kondisi =
         : suhu >= 101 && suhu <= 500
         ? "Uap"
         : "Tidak terdefinisi";
+// BBM
 let jenis = prompt("Apa Jenis Kendaraan anda?");
 let cc = jenis == "mobil" ? prompt("berapa cc mobil anda") : "";
 let bbm =
@@ -14,9 +16,7 @@ let bbm =
         ? "Subsidi"
         : jenis == "mobil" && cc < 1500
         ? "Pertamax"
-        : jenis == "mobil" && cc >= 1500
-        ? "Pertamax Turbo"
-        : "tidak perlu";
+        : "Pertamax Turbo";
 let cc1 = jenis == "mobil" ? `${cc} cc ` : "";
 console.log("Homework Javascript Fundamental-Fajrin Nurhakim");
 console.log(
